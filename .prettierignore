@@ -1,0 +1,15 @@
+node_modules
+dist
+src/graphql/types.ts
+.git
+.gitignore
+.npmignore
+Dockerfile
+.dockerignore
+docker-compose.yml
+.env
+.*.env
+.env.*
+*-lock.json
+yarn.lock
+*-lock.yaml

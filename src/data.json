@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Hello world!",
+      "content": "Hello world!",
+      "published": true
+    },
+    {
+      "id": "2",
+      "title": "Hello world! 2",
+      "content": "Hello world! 2",
+      "published": true
+    }
+  ]
+}

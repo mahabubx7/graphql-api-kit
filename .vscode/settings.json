@@ -1,0 +1,13 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "files.eol": "\n",
+  "cSpell.words": [
+    "codegen",
+    "commitlint",
+    "Mahabub",
+    "paren",
+    "Parens",
+    "pnpx"
+  ]
+}
