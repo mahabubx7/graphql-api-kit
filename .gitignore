@@ -8,6 +8,7 @@ dist/
 !.vscode/extensions.json
 .husky/*
 !.husky/pre-commit
+!.husky/commit-msg
 
 # Environment files
 .env
