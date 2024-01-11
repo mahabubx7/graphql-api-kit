@@ -1,6 +1,7 @@
 {
   "env": {
     "node": true,
+    "es2018": true,
     "es2021": true
   },
   "parserOptions": {
@@ -28,7 +29,8 @@
     {
       "files": ["./src/graphql/types.ts"],
       "rules": {
-        "@typescript-eslint/ban-types": ["off"]
+        "@typescript-eslint/ban-types": ["off"],
+        "@typescript-eslint/no-explicit-any": ["off"]
       }
     }
   ]

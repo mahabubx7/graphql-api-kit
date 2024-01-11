@@ -6,6 +6,7 @@
     "codegen",
     "commitlint",
     "Mahabub",
+    "nodechecker",
     "paren",
     "Parens",
     "pnpx"
