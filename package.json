@@ -4,14 +4,15 @@
   "description": "GraphQL API starter kit",
   "type": "module",
   "scripts": {
-    "test": "echo \"Tests...\"",
+    "test": "tsx --test **/*.test.ts",
+    "test:watch": "tsx watch --test **/*.test.ts",
     "start": "pnpm codegen && tsx watch src/server.ts",
     "start:prod": "node --import tsx/esm ./dist/server.js",
     "format": "prettier -w .",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix",
     "prebuild": "rimraf dist && pnpm codegen",
-    "build": "pnpm prebuild && tsc",
+    "build": "pnpm prebuild && tsc -p tsconfig.build.json",
     "prepare": "npx husky install",
     "codegen": "graphql-codegen --config codegen.ts"
   },
@@ -50,7 +51,6 @@
     "lint-staged": "^15.2.0",
     "prettier": "^3.1.1",
     "rimraf": "^5.0.5",
-    "tsconfig-paths": "^4.2.0",
     "tsx": "^4.7.0",
     "typescript": "^5.3.3"
   },
